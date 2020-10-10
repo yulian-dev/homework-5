@@ -1,0 +1,470 @@
+body {
+  font-family: "OpenSans", sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* AWESOME ===================================================== */
+
+.awesome {
+  width: 100%;
+}
+
+.awesome-title {
+  text-align: center;
+  margin-top: 107px;
+}
+
+.awesome-title::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin: 30px auto;
+
+  background-color: #ff8c2c;
+}
+
+.awesome-title h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.awesome-subtitle {
+  text-align: center;
+}
+
+.awesome-subtitle p {
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.awesome-section {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1112px;
+  margin: 80px auto;
+}
+
+.awesome-icon-light {
+  width: 74px;
+  height: 74px;
+  margin: 0 auto;
+
+  border: 2px solid #ff8c2c;
+  border-radius: 50%;
+}
+
+.awesome-icon-light img {
+  width: 25px;
+  margin: 21px 25px;
+}
+
+.awesome-icon-keyboard {
+  width: 74px;
+  height: 74px;
+  margin: 0 auto;
+
+  border: 2px solid #ff8c2c;
+  border-radius: 50%;
+}
+
+.awesome-icon-keyboard img {
+  width: 35px;
+  margin: 25px 20px;
+}
+
+.awesome-icon-flash {
+  width: 74px;
+  height: 74px;
+  margin: 0 auto;
+
+  border: 2px solid #ff8c2c;
+  border-radius: 50%;
+}
+
+.awesome-icon-flash img {
+  width: 25px;
+  margin: 25px 25px;
+}
+
+.awesome-item-title {
+  text-align: center;
+  margin: 29px 0 25px;
+}
+
+.awesome-item-title h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.awesome-desc {
+  display: block;
+  margin: 0 25px;
+  max-width: 350px;
+  text-align: center;
+}
+
+.awesome-desc p {
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+/* PRICING ======================================================== */
+
+.price {
+  display: flex;
+  width: 100%;
+
+  background-color: #f5f5f5;
+}
+
+.price-title {
+  text-align: center;
+  margin-top: 109px;
+}
+
+.price-title::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin: 26px auto 23px;
+
+  background-color: #ff8c2c;
+}
+
+.price-title h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.price-subtitle {
+  text-align: center;
+}
+
+.price-subtitle p {
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.price-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 1112px;
+  margin: 80px auto 96px;
+}
+
+.price-item {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+.price-item-block {
+  width: 343px;
+  background-color: #2c3730;
+}
+
+.price-item-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.price-item-value {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 1;
+  color: #ffffff;
+
+  border-top: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+  background-color: #2c3730;
+}
+
+.price-item sub {
+  font-size: 30%;
+  vertical-align: -10%;
+}
+
+.price-item-term {
+  font-weight: 300;
+  font-size: 14px;
+  font-style: italic;
+  color: #ffffff;
+  padding: 18px 0;
+
+  border-bottom: 5px solid #ff8c2c;
+  background-color: #2c3730;
+}
+
+.price-item-popular {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px 0;
+
+  background-color: #ff8c2c;
+}
+
+.price-item ul {
+  display: block;
+  background-color: #ffffff;
+}
+
+.price-item li {
+  display: block;
+  font-weight: 300;
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: 0.6;
+  padding: 10px 0;
+
+  border-top: 1px solid rgba(0%, 0%, 0%, 0.1);
+}
+
+/* REVIEW ======================================================= */
+
+.review {
+  width: 100%;
+}
+
+.review-title {
+  text-align: center;
+  margin-top: 109px;
+}
+
+.review-title::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin: 30px auto;
+
+  background-color: #ff8c2c;
+}
+
+.review-title h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.review-subtitle {
+  text-align: center;
+}
+
+.review-subtitle p {
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.review-section {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1112px;
+  margin: 80px auto;
+}
+
+.review-item-bubble {
+  position: relative;
+	width: 273px;
+	background-color:#F5F5F5;
+  border: 2px solid #F5F5F5;
+}
+
+.review-item-bubble::after {
+  content: ""; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	left: 17px; 
+  border: 15px solid transparent;
+  border-top-color: #F5F5F5;
+  border-bottom: 0;
+}
+
+.review-item-text p {
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 0.5;
+  font-style: italic;
+  padding: 24px 12px;
+}
+
+.review-item-pic {
+  display: flex;
+}
+
+.review-item-icon {
+  text-align: left;
+}
+
+.review-item-icon img {
+  width: 70px;
+  margin: 15px 0;
+}
+
+.review-item-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 16px 15px;
+}
+
+.review-item-name h3 {
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.review-item-name p {
+  font-weight: 300;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+/* DOWNLOAD ===================================================== */
+
+.download {
+  display: flex;
+  width: 100%;
+  height: 322px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/pic/background.png);
+  background-size: cover;
+}
+
+.download-title {
+  text-align: center;
+  margin-top: 76px;
+}
+
+.download-title::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin: 26px auto 23px;
+
+  background-color: #ffffff;
+}
+
+.download-title h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: #ffffff;
+
+  text-transform: uppercase;
+}
+
+.download-subtitle {
+  text-align: center;
+}
+
+.download-subtitle p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.download-button {
+  width: 135px;
+  height: 42px;
+  margin: 33px auto;
+}
+
+.download-button:hover {
+  content: "";
+  display: block;
+  width: 135px;
+  height: 42px;
+
+  cursor: pointer;
+
+  background: radial-gradient(
+    circle,
+    rgba(252, 176, 112, 1) 0%,
+    rgba(255, 140, 44, 1) 100%
+  );
+}
+
+.download-button a {
+  display: block;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 13px 31px;
+
+  text-decoration: none;
+  border: 1px solid #ffffff;
+}
+
+/* FOOTER ===================================================== */
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 101px;
+
+  background-color: #000000;
+}
+
+.footer-socials {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto 0;
+}
+
+.footer-item {
+  display: inline-block;
+  vertical-align: top;
+  color: #ffffff;
+  margin: 15px 14px;
+
+  text-decoration: none;
+}
+
+.footer-item i {
+  opacity: 0.8;
+
+  transition: color 0.2s linear;
+}
+
+.footer-item i:hover {
+  content: "";
+  display: block;
+  color: #ff8c2c;
+}
+
+.footer-copyright {
+  text-align: center;
+  margin: 5px auto 0;
+}
+
+.footer-copyright p {
+  font-weight: 300;
+  font-size: 12px;
+  color: #ffffff;
+  opacity: 0.8;
+}
